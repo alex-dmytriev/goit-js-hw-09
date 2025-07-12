@@ -29,3 +29,73 @@
   transform: scale(1.04444);
   cursor: zoom-in;
 }
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  width: 408px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 24px;
+
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin: auto 24px;
+
+}
+
+.feedback-form button {
+  margin: auto 24px;
+  width: 95px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4E75FF;
+  color: #fff;
+  padding: auto auto;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  margin-top: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  transition: border 0.3s ease;
+}
+
+.feedback-form input {
+  font-size: 18px;
+  line-height: 0.6;
+  padding-left: 8px;
+  letter-spacing: 0.02em;
+  height: 40px;
+}
+
+.feedback-form textarea {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-left: 8px;
+  height: 80px;
+
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+  border: 1px solid #000000;
+}
+
+.feedback-form input:active,
+.feedback-form textarea:active {
+  border: 1px solid #808080;
+}
+
+.feedback-form button:hover {
+  background-color: #6C8CFF;
+}

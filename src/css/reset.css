@@ -8,6 +8,11 @@ p {
   margin: 0;
 }
 
+body {
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
